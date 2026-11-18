@@ -1,0 +1,130 @@
+================================================================================
+CONTRATO DE LICENCIA DE USUARIO FINAL (EULA) Y TERMINOS DE SERVICIO
+OPTITOOLKIT PRO — SOFTWARE DE OPTIMIZACION Y GESTION DE WINDOWS
+Version Comercial de Pago Unico (Lifetime)
+================================================================================
+
+POR FAVOR, LEA ATENTAMENTE ESTE CONTRATO ANTES DE INSTALAR, ACTIVAR O UTILIZAR
+EL SOFTWARE OPTITOOLKIT PRO.
+
+AL INSTALAR, COPIAR, ACTIVAR O UTILIZAR ESTE SOFTWARE, USTED (EN ADELANTE EL
+"USUARIO" O "LICENCIATARIO") ACEPTA QUEDAR LEGALMENTE VINCULADO POR LOS TERMINOS
+Y CONDICIONES DE ESTE ACUERDO. SI NO ESTA DE ACUERDO CON TODOS LOS TERMINOS DE
+ESTE CONTRATO, NO INSTALE, NO ACTIVE NI UTILICE EL SOFTWARE.
+
+--------------------------------------------------------------------------------
+1. CONCESION DE LICENCIA Y NIVELES (TIERS)
+--------------------------------------------------------------------------------
+OptiToolkit Pro es comercializado bajo un modelo de PAGO UNICO (Licencia Vitalicia /
+Lifetime para la rama de version adquirida), sin suscripciones mensuales
+obligatorias. El uso del software se rige de acuerdo al Nivel (Tier) adquirido:
+
+a) NIVEL 1 — PERSONAL / GAMER ($4.99 USD):
+   Otorga una licencia personal, no exclusiva e intransferible para el uso en
+   un (1) unico equipo de computo fisico personal, vinculado mediante la huella
+   digital de hardware (HWID).
+
+b) NIVEL 2 — POWER USER ($9.99 USD):
+   Otorga una licencia personal o domestica para el uso en hasta tres (3) equipos
+   de computo pertenecientes al mismo titular o nucleo familiar.
+
+c) NIVEL 3 — TECNICO / TALLER ($19.99 USD):
+   Otorga una licencia comercial y profesional para tecnicos de soporte, talleres
+   de mantenimiento y reparacion. Incluye la autorizacion expresa de ejecucion en
+   Modo Portatil (Pendrive USB) en un numero ilimitado de computadoras de clientes
+   para tareas de post-instalacion, formateo y mantenimiento.
+
+--------------------------------------------------------------------------------
+2. NATURALEZA DE LAS OPTIMIZACIONES Y ADVERTENCIA DE RESPONSABILIDAD
+--------------------------------------------------------------------------------
+El software OptiToolkit Pro interactua y modifica parametros avanzados del sistema
+operativo Microsoft Windows, incluyendo pero no limitandose a:
+- Claves y valores del Registro de Windows (HKLM / HKCU).
+- Estado y configuracion de inicio de Servicios del Sistema (Service Control Manager).
+- Datos de configuracion de arranque (BCD) y gestion de energia.
+- Adaptadores de red, protocolos TCP/IP, Winsock y configuraciones DNS.
+- Tareas programadas y telemetria de Windows.
+
+ADVERTENCIA:
+Ciertas optimizaciones avanzadas ("Gaming" o "Extrema") pueden no ser compatibles
+con todos los entornos de hardware o aplicaciones empresariales especializadas.
+EL USUARIO RECONOCE Y ACEPTA QUE ES SU RESPONSABILIDAD CREAR UN PUNTO DE
+RESTAURACION DEL SISTEMA Y/O COPIA DE SEGURIDAD DEL REGISTRO (herramientas provistas
+dentro de OptiToolkit Pro) ANTES DE APLICAR CUALQUIER OPTIMIZACION O MODIFICACION.
+
+--------------------------------------------------------------------------------
+3. EXCLUSION DE GARANTIAS ("AS IS" / TAL CUAL)
+--------------------------------------------------------------------------------
+EN LA MEDIDA MAXIMA PERMITIDA POR LAS LEYES APLICABLES, OPTITOOLKIT PRO SE
+SUMINISTRA "TAL CUAL" ("AS IS") Y "SEGUN DISPONIBILIDAD", SIN GARANTIAS DE
+NINGUN TIPO, SEAN EXPRESAS, IMPLICITAS O ESTATUTARIAS, INCLUYENDO, SIN LIMITACION,
+LAS GARANTIAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPOSITO PARTICULAR O NO
+INFRACCION.
+
+EL DESARROLLADOR NO GARANTIZA QUE LAS FUNCIONES CONTENIDAS EN EL SOFTWARE
+SATISFAGAN COMPLETAMENTE SUS NECESIDADES ESPECIFICAS, QUE LA OPERACION DEL
+SOFTWARE SEA ININTERRUMPIDA O LIBRE DE ERRORES, NI QUE DEFECTOS PREVIOS EN SU
+INSTALACION DE WINDOWS SEAN CORREGIDOS AUTOMATICAMENTE.
+
+--------------------------------------------------------------------------------
+4. LIMITACION DE RESPONSABILIDAD
+--------------------------------------------------------------------------------
+EN NINGUN CASO EL DESARROLLADOR, AUTORES O DISTRIBUIDORES DE OPTITOOLKIT PRO SERAN
+RESPONSABLES ANTE EL USUARIO O TERCEROS POR DANOS DIRECTOS, INDIRECTOS,
+INCIDENTALES, ESPECIALES, PUNITIVOS O CONSECUENTES (INCLUYENDO, ENTRE OTROS, LA
+PERDIDA DE DATOS, ARCHIVOS, BENEFICIOS ECONOMICOS, INTERRUPCION DE LA ACTIVIDAD
+COMERCIAL O FALLAS DE EQUIPOS), DERIVADOS DEL USO O DE LA IMPOSIBILIDAD DE USO
+DEL SOFTWARE, INCLUSO SI SE HUBIERA ADVERTIDO DE LA POSIBILIDAD DE TALES DANOS.
+
+--------------------------------------------------------------------------------
+5. RELACION CON TERCEROS Y GESTORES DE PAQUETES
+--------------------------------------------------------------------------------
+OptiToolkit Pro funciona como un orquestador e interfaz de integracion.
+El software no comercializa, no revende ni reclama propiedad sobre utilidades,
+herramientas o programas de terceros descargables o accesibles mediante su
+interfaz (tales como Winget, Chocolatey, Hellzerg Optimizer, Chris Titus WinUtil,
+LibreOffice, Mozilla Firefox, Google Chrome, entre otros).
+
+Todas las descargas se realizan directamente desde los repositorios y servidores
+oficiales de sus respectivos creadores y fabricantes, bajo los terminos de sus
+propias licencias de codigo abierto o acuerdos de usuario final.
+
+--------------------------------------------------------------------------------
+6. PRIVACIDAD Y RECOLECCION DE DATOS
+--------------------------------------------------------------------------------
+OptiToolkit Pro respeta plenamente su privacidad:
+- NO recopila, NO almacena y NO transmite datos personales, documentos, contraseñas
+  ni informacion de navegacion del usuario.
+- El Identificador de Hardware (HWID) se calcula de manera local y unidireccional
+  (SHA-256) a partir de informacion de placa base y procesador exclusivamente
+  para verificar la validez de la clave de licencia en su computadora.
+
+--------------------------------------------------------------------------------
+7. RESTRICCIONES DE USO Y DERECHOS DE AUTOR
+--------------------------------------------------------------------------------
+Queda expresamente prohibido:
+a) Modificar, descompilar, realizar ingenieria inversa, desensamblar o intentar
+   eludir o burlar el sistema de verificacion criptografica de licencias.
+b) Redistribuir, publicar o compartir en foros publicos o redes sociales claves
+   de activacion generadas privadamente.
+c) Revender licencias Nivel 1 o Nivel 2 a terceros como si fueran licencias de
+   taller comercial sin autorizacion previa.
+
+--------------------------------------------------------------------------------
+8. TERMINACION Y POLITICA DE REEMBOLSOS
+--------------------------------------------------------------------------------
+Al tratarse de un producto digital con entrega inmediata de codigo de licencia y
+acceso instantaneo a las funciones, los reembolsos se rigen por las normas de la
+plataforma oficial de venta (LemonSqueezy, Gumroad, Payhip o pasarela autorizada)
+y se reservan para casos comprobados de fallas tecnicas irresolubles atribuibles
+directamente a defectos del software.
+
+El incumplimiento grave de las restricciones estipuladas en este contrato dara
+lugar a la revocacion inmediata y bloqueo de la clave de activacion sin derecho
+a reembolso.
+
+================================================================================
+Al hacer clic en "Acepto" o utilizar el software, usted declara haber leido,
+comprendido y aceptado en su totalidad este Contrato de Licencia.
+================================================================================
+
