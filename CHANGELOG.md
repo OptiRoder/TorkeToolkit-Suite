@@ -1,5 +1,25 @@
 # TorkeToolkit — Update History (Changelog)
 
+## v3.3.0 (Torke HUD, Extreme Battery Saver, Sustained CPU Boost, Win11 RAM Reducer & Dark Tray)
+
+### Gaming Pro, Torke HUD & Sustained CPU Boost
+- **Torke HUD — Real-Time ETW In-Game Telemetry Overlay (`TelemetryOverlayWindow` / `EtwFpsMonitorService`):** ultra-lightweight (`<0.3%` CPU) floating overlay displaying **real FPS, Frametime, and 1% Low via Windows ETW** (`Ctrl+Shift+O`), zero DLL injection (0% anti-cheat risk), auto-show on game launch, and compact horizontal or vertical modes.
+- **Safe Sustained CPU Boost (`SetSustainedCpuBoost`):** without modifying voltages or BCLK, sets **0% AC EPP (`PERFEPP`)** for instant Intel Speed Shift / AMD CPPC clock ramp, enables **Aggressive AC Turbo Boost**, keeps **100% AC cores unparked**, and disables **Windows Power Throttling**. Applied automatically in `OptimizeGaming()` and toggleable in **Gaming Pro**.
+- **Stronger Smart RAM Clean & Game Booster:** upgraded `SmartGamingPreset` (`SystemFileCache` + `ModifiedPageList` + `10 MB` background trim threshold) and added **Aggressive Boost Mode** with deep entry purge when a game launches plus stutter-free ongoing maintenance.
+- **Modular & Reversible Windows 11 RAM Reducer:** 7 independent switches in **Gaming Pro** to disable/revert Copilot/Recall/Widgets/Bing WebView2, UWP background apps, Edge/Chrome Startup Boost, `SysMain`, `WSearch`, Telemetry (`DiagTrack`), and Mica/Acrylic Transparency.
+- **+26 Recent & Viral Games Added to Auto-Detection:** covers Extraction, Action RPG, Simulation, and Viral Co-op hits (*Monster Hunter Wilds*, *Split Fiction*, *R.E.P.O.*, *Schedule I*, *Clair Obscur: Expedition 33*, *Kingdom Come: Deliverance II*, *Deadlock*, *Marvel Rivals*, *Delta Force*, *FragPunk*, *Path of Exile 2*, *inZOI*, and more).
+
+### Battery Saver, Hardware Telemetry, Tray Menu & Splash Polish
+- **Extreme Battery Saver Mode (`ExtremeBatterySaverService`) + Battery Report Viewer (`BatteryReportWindow`):** 1-click reversible battery profile (CPU Turbo OFF + 70% cap + high-efficiency EPP, display brightness/60Hz/DWM transparency, PCIe ASPM, USB/Wi-Fi power saving, and background throttling) with **automatic snapshot** and optional restore when plugging in the AC charger.
+- **Accurate `CPU+iGPU` Laptop Power Telemetry:** detects integrated GPUs (Intel UHD/HD/Iris and AMD Radeon Graphics/Vega/610M–890M) to skip false discrete GPU estimates and clearly label `CPU+iGPU` power draw.
+- **Styled Dark System Tray Menu (`TrayPopupMenuWindow`):** custom dark popup menu replacing the legacy white Win32 menu, with live RAM usage header, 1-click **Auto Game Booster**, **Sustained CPU Boost**, **Flush DNS Cache**, RAM cleaners, and **Eco Mode**.
+- **Rounded & Detailed Splash Screen:** clean `VisualBrush` rounded clipping for the top accent bar and ambient glow, `[1/4]`–`[4/4]` step badge, and live subsystem initialization chips.
+
+## v3.2.1 (Collapsible Vector Sidebars, Real Program Icons & Fluid Micro-Animations)
+- **Collapsible Vector-Icon Navigation Sidebars (MainWindow & Software Installer):** compact `64px` icon-only default view with crisp `24×24` vector icons, smooth `CubicEase` expansion (`64px` ↔ `218px`/`228px`), instant tooltips, and icon hover scale animations.
+- **178 Real Official Program Icons:** embedded `32×32` full-color official icons for all catalog apps, decoded in-memory (`0 ms` lag, `100% offline`).
+- **Global Fluid Hover Micro-Animations & Payhip API v2:** smooth hover scaling on buttons, dark secondary window frames, masked license key input with reveal toggle, and direct Bug Report button (`optiroder@gmail.com`).
+
 ## v3.2.0 (Consolidated Release)
 
 ### Official Driver Center & Simultaneous Downloads

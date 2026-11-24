@@ -1,5 +1,25 @@
 # TorkeToolkit — Historial de Actualizaciones (Changelog)
 
+## v3.3.0 (Torke HUD, Ahorro de Batería Extremo, Boost Sostenido, Reductor Win11 y Bandeja Oscura)
+
+### Gaming Pro, Torke HUD y Boost CPU Sostenido Seguro
+- **Torke HUD — Overlay ETW de Telemetría en Juegos (`TelemetryOverlayWindow` / `EtwFpsMonitorService`):** overlay flotante ultraligero (`<0.3%` CPU) con **FPS reales, Frametime y 1% Low vía ETW de Windows** (`Ctrl+Shift+O`), sin inyección de DLLs (0% riesgo con anti-cheats), activación automática al detectar juego y vista compacta en barra o vertical.
+- **Boost CPU Sostenido Seguro (`SetSustainedCpuBoost`):** sin tocar voltajes ni BCLK, fija **EPP (`PERFEPP`) al 0% en corriente AC** (rampa instantánea Intel Speed Shift / AMD CPPC), habilita **Turbo Agresivo en AC**, mantiene **100% de núcleos activos en AC** y desactiva **Windows Power Throttling**. Se aplica automáticamente en `OptimizeGaming()` y tiene interruptor reversible en **Gaming Pro**.
+- **Limpieza Inteligente RAM y Game Booster más Agresivos:** `SmartGamingPreset` ampliado (`SystemFileCache` + `ModifiedPageList` + recorte desde `10 MB`) y nuevo **Modo Boost Agresivo** con purga profunda al iniciar juego y mantenimiento anti-stutter cada 15 segundos.
+- **Reductor Modular y Reversible de RAM en Windows 11:** 7 interruptores independientes en **Gaming Pro** para activar o revertir Copilot/Recall/Widgets/Bing WebView2, Apps UWP en 2º plano, Startup Boost de Edge/Chrome, `SysMain`, `WSearch`, Telemetría (`DiagTrack`) y Transparencias Mica/Acrylic.
+- **+26 Juegos Recientes y Virales en Auto-Detección:** soporte categorizado para títulos recientes (*Monster Hunter Wilds*, *Split Fiction*, *R.E.P.O.*, *Schedule I*, *Clair Obscur: Expedition 33*, *Kingdom Come: Deliverance II*, *Deadlock*, *Marvel Rivals*, *Delta Force*, *FragPunk*, *Path of Exile 2*, *inZOI*, entre otros).
+
+### Batería Extrema, Telemetría Hardware, Menú en Bandeja y Splash
+- **Modo Ahorro de Batería Extremo (`ExtremeBatterySaverService`) + Visor de Batería (`BatteryReportWindow`):** perfil 100% reversible en 1 clic (Turbo OFF + CPU max 70% + EPP, brillo/60 Hz/transparencia, PCIe ASPM, USB/Wi-Fi y pausa de procesos en 2º plano) con **snapshot automático** y restauración al conectar el cargador AC.
+- **Telemetría Real `CPU+iGPU` en Laptops:** detección de gráficas integradas (Intel UHD/HD/Iris y AMD Radeon Graphics/Vega/610M–890M) para evitar lecturas falsas de GPU dedicada y etiquetar honestamente `CPU+iGPU`.
+- **Menú Oscuro Estilizado en Bandeja (`TrayPopupMenuWindow`):** popup moderno en modo oscuro con lectura de RAM en vivo, toggles en 1 clic para **Auto Game Booster**, **Boost CPU Sostenido**, **Vaciar Caché DNS (`Flush DNS`)**, limpieza de RAM y **Modo Eco**.
+- **Splash Screen Redondeado y Detallado:** barra superior luminosa perfectamente recortada a las esquinas (`CornerRadius="14"`), brillo radial ambiental, contador de paso `[1/4]`–`[4/4]` y chips de subsistemas en vivo.
+
+## v3.2.1 (Barras Retráctiles Vectoriales, Iconos Reales y Micro-Animaciones)
+- **Barras Laterales Retráctiles con Iconos Vectoriales:** modo compacto inicial (`64px`) con iconos vectoriales nítidos, expansión fluida `CubicEase`, `ToolTip` instantáneo y micro-animaciones en botones.
+- **178 Iconos Oficiales Reales en el Gestor de Software:** logos oficiales a color (`32×32`) embebidos (`100% offline`).
+- **Verificación Payhip API v2 y Reportar Bug:** ocultamiento/revelado de licencia y contacto directo (`optiroder@gmail.com`).
+
 ## v3.2.0 (Versión Consolidada de Lanzamiento)
 
 ### Centro de Drivers Oficiales y Descargas Simultáneas
